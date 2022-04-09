@@ -1,32 +1,41 @@
 package com.igormeira.hearthstonecards.ui.fragments.home
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.igormeira.hearthstonecards.R
+import androidx.fragment.app.Fragment
+import com.igormeira.hearthstonecards.databinding.HomeFragmentBinding
+import com.igormeira.hearthstonecards.di.homeModule
+import org.koin.androidx.viewmodel.ext.android.viewModel
+import org.koin.core.context.loadKoinModules
+import org.koin.core.context.unloadKoinModules
 
 class HomeFragment : Fragment() {
 
-    companion object {
-        fun newInstance() = HomeFragment()
+    private val homeModules by lazy {
+        unloadKoinModules(homeModule)
+        loadKoinModules(homeModule)
     }
 
-    private lateinit var viewModel: HomeViewModel
+    private fun injectModules() = homeModules
+
+    private val homeViewModel: HomeViewModel by viewModel()
+
+    private lateinit var binding: HomeFragmentBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.home_fragment, container, false)
+    ): View {
+        binding = HomeFragmentBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
-        // TODO: Use the ViewModel
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        injectModules()
+        homeViewModel.loadAllCards()
     }
 
 }

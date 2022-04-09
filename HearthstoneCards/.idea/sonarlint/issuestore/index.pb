@@ -1,9 +1,11 @@
 
-‚
-Rapp/src/main/java/com/igormeira/hearthstonecards/ui/fragments/home/HomeFragment.kt,d\8\d831292e3c686b8b603d40561ff958069ad927f9
-ƒ
-Sapp/src/main/java/com/igormeira/hearthstonecards/ui/fragments/home/HomeViewModel.kt,4\3\439ab2931b51920bf0372d26c4f3576de5e5afb5
 A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
 X
 (gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+s
+Capp/src/main/java/com/igormeira/hearthstonecards/ui/MainActivity.kt,2\0\201edb51c97559e9baebbf7b5df1729ec9cab47e
+?
+settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
