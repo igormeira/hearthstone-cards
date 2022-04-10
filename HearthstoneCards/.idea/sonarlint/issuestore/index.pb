@@ -7,5 +7,3 @@ s
 Capp/src/main/java/com/igormeira/hearthstonecards/ui/MainActivity.kt,2\0\201edb51c97559e9baebbf7b5df1729ec9cab47e
 ?
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
