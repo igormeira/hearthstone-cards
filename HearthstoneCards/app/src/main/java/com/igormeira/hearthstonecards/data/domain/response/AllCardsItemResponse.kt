@@ -10,6 +10,8 @@ data class AllCardsItemResponse(
     @SerializedName("type") val type: String,
     @SerializedName("text") val textDescription: String,
     @SerializedName("playerClass") val playerClass: String,
+    @SerializedName("cost") val cost: Int,
+    @SerializedName("rarity") val rarity: String?,
     @SerializedName("locale") val locale: String,
     @SerializedName("mechanics") val mechanicsList: List<CardMechanicsResponse>?,
 )

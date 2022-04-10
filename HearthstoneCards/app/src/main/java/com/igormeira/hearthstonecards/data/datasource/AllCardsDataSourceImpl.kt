@@ -9,6 +9,7 @@ class AllCardsDataSourceImpl : AllCardsDataSource {
 
     private val apiAccess = ApiAccess
 
+// REFATORAR E MANDAR A LÓGICA PARA O REPOSITORY
     override suspend fun getAllCards(): Resource<Failure, AllCardsResponse> {
         return try {
             val response = apiAccess.client.getAllCards().execute()
