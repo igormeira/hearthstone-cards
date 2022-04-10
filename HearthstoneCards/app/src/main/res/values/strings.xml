@@ -3,4 +3,6 @@
 
     <!-- Home Fragment -->
     <string name="home_label">Home Fragment</string>
+    <string name="class_label">Class:</string>
+    <string name="cost_label">Cost:</string>
 </resources>
