@@ -5,4 +5,11 @@
     <string name="home_label">Home Fragment</string>
     <string name="class_label">Class:</string>
     <string name="cost_label">Cost:</string>
+
+    <!-- Card Fragment -->
+    <string name="set_label">Set:</string>
+    <string name="type_label">Tipo:</string>
+    <string name="rarity_label">Raridade:</string>
+    <string name="attack_label">Ataque:</string>
+    <string name="health_label">Pontos de Vida:</string>
 </resources>
