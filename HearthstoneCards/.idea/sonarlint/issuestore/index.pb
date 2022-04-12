@@ -11,12 +11,6 @@ y
 Iapp/src/main/java/com/igormeira/hearthstonecards/data/remote/ApiAccess.kt,0\6\06affba290a2d05d2d02531c881bb326bc440a4b
 z
 Japp/src/main/java/com/igormeira/hearthstonecards/data/remote/HttpRoutes.kt,0\f\0f4c63dd6e97664294c4c8ad936909d34bee00c1
-…
-Uapp/src/main/java/com/igormeira/hearthstonecards/core/extensions/FailureExtensions.kt,4\b\4b855463352100383d64999ce2327a4a9d57cacd
-x
-Happ/src/main/java/com/igormeira/hearthstonecards/core/network/Failure.kt,d\e\deb9a824c2dbc8bcbda309982f17233edd935d4f
-†
-Vapp/src/main/java/com/igormeira/hearthstonecards/data/datasource/AllCardsDataSource.kt,1\5\1588a6e01e3d848b917bbca3bfa655a72b7c504a
 †
 Vapp/src/main/java/com/igormeira/hearthstonecards/data/repository/AllCardsRepository.kt,b\a\ba19d4bee0ac7440ec8278ad9d6e3258cd3a842d
 Š
