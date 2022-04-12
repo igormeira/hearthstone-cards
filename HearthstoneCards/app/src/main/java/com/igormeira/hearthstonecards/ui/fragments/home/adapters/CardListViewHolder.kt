@@ -15,6 +15,7 @@ class CardListViewHolder(
         itemBinding.tvItemDescription.text = card.description
         itemBinding.tvItemClassValue.text = card.playerClass
         itemBinding.tvItemCostValue.text = card.cost.toString()
+        itemBinding.cardViewContainer.setOnClickListener { clickedCallback(card.name) }
     }
 
 }

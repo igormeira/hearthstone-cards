@@ -12,4 +12,5 @@
     <string name="rarity_label">Raridade:</string>
     <string name="attack_label">Ataque:</string>
     <string name="health_label">Pontos de Vida:</string>
+    <string name="card_label">Card Info</string>
 </resources>
