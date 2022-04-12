@@ -6,6 +6,9 @@
 
 App Android, que tem como objetivo mostrar uma lista de cartas do Hearthstone e exibir imagem e informações da carta selecionada.
 
+## API consultada
+https://rapidapi.com/omgvamp/api/hearthstone/
+
 ## Projeto
 
 Foi utilizado MVVM, como padrão de projeto e as seguintes dependências:
