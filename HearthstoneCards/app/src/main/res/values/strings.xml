@@ -13,4 +13,5 @@
     <string name="attack_label">Ataque:</string>
     <string name="health_label">Pontos de Vida:</string>
     <string name="card_label">Card Info</string>
+    <string name="title_cardsbackfeature">Cards Back</string>
 </resources>
